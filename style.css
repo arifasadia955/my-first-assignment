@@ -176,3 +176,53 @@ div .card-content{
 }
 
 /* !second brain section */
+.second-brain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.checklist-items{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.checklist{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+.checklist p{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 20px;
+    color:#001931 ;
+}
+.second-brain-text{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.second-brain-headings{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.second-brain-headings h4{
+    font-size: 16px;
+    font-weight: 500px;
+    color: #469165;
+}
+.second-brain-headings h2{
+    font-size: 48px;
+    font-weight: 700px;
+    line-height: 58px;
+    color: #001931;
+}
+.second-brain-headings p{
+    font-size:16px ;
+    font-weight: 400px;
+    line-height: 20px;
+    color: #627382;
+}
