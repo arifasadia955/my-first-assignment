@@ -276,3 +276,27 @@ section .challange-card{
     font-size: 16px;
     font-weight: 400px;
 }
+
+/* footer section */
+.footer-section{
+    background-color: rgba(0,25,49,1);
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.media-links{
+    color: white;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+   text-align: center;
+}
+.copyright{
+    color: white;
+    border-top: 1px solid #F7F6F2;
+    padding: 20px;
+}
