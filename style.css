@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common classes */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.width{
+    max-width: 1360px;
+    margin: auto;
+}
+
+.btn{
+    padding: 12px 16px;
+    margin:4px 0;
+    color: white;
+    font-weight: 600px;
+    font-size: 16px;
+    background-color:#469165 ;
+    border-radius: 4px ;
+    border: 1px solid #469165;
+}
+
+/* todo nav section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+nav a{
+    text-decoration: none;
+}
+
+/* todo banner section */
