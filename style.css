@@ -226,3 +226,53 @@ div .card-content{
     line-height: 20px;
     color: #627382;
 }
+
+/* !challange section */
+section .challange-card{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    text-align: center;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    border-radius: 12px;
+}
+.challange-text{
+    display: flex;
+    flex-direction: column;
+    gap:16px ;
+}
+.challange-button{
+    display: flex;
+    flex-direction: column;
+    gap:16px ;
+}
+.challange-button  {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.challange-button .btn-last{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.challange-text h2{
+    font-size: 40px;
+    font-weight: 700px;
+    color: #001931;
+}
+.challange-text p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+
+}
+.challange-button p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400px;
+}
