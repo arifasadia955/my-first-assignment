@@ -47,3 +47,79 @@ nav a{
 }
 
 /* todo banner section */
+.bg{
+    background-image:url(assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 674px;
+
+}
+section{
+    padding: 70px 0 130px 0;
+}
+section .banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aliceblue; */
+    gap: 16px;
+
+}
+section #banner-h4-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 8px 12px 8px 12px;
+    border-radius: 1000px;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500px;
+    margin-top: 30px;
+}
+section #banner-h4-text img{
+    width: 16px;
+    height: 16px;
+}
+section .banner h1{
+    font-size: 72px;
+    font-weight: 700px;
+    color: white;
+}
+section .banner h1 span{
+    color: #469165;
+}
+section .banner p{
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+section div .banner-btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 30px;
+}
+section div .banner-btn-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+section div .banner-btn-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.banner-btn-2 img{
+    width: 20px;
+    height: 20px;
+}
+.banner-btn-2{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
